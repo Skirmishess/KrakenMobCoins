@@ -199,7 +199,7 @@ public class MobCoins extends JavaPlugin {
             pm.registerEvents(new MythicMobDeathPhysical(this), this);
         }
 
-        this.getCommand("mobcoins").setExecutor(new MainCommand(this));
+        this.getCommand("jc").setExecutor(new MainCommand(this));
 
     }
 
